@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";
-var adminprefix = '#'
+var adminprefix = 'w'
 
 
 const developers = ["ID","ID"]
@@ -26,7 +26,7 @@ client.on('message', message => {
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
     client.user.setGame(argresult, "https://www.twitch.tv/dream");
-      message.channel.send(`**✅**`)
+      message.channel.send(`**تـــ تغيير الحالة ــم**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
